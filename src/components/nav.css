@@ -1,0 +1,42 @@
+body{
+    background: rgb(192, 185, 226);
+}
+.person-clip {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    width: 80px;
+    height: 80px;
+}
+ul, a{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(146, 56, 40);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h1.intro, footer{
+    text-align: center;
+    color: rgb(146, 56, 40);
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    
+
+}
+.info{
+    border: 1px solid ;
+    width: 25%;
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
